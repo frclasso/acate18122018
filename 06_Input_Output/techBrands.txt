@@ -1,4 +1,0 @@
-ASUS
-Intel
-AMD
-Apple

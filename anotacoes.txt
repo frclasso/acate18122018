@@ -1,0 +1,14 @@
+Sintaxe basica
+built in
+arquivos - salvando seus dados
+
+--Aplicacao  - clientes
+01_numeros.py > 06_format_strings.py  ===> clientes1.py
+08_listas > 11_sets.py ===> clientes2.py
+12_op_logicos > 20_loop_aninhado.py===> clientes3.py
+
+Built ins
+len, type, max, min, range, sorted, enumerate ==>clientes4.py
+
+Salvando os dados em arquivos externos
+

@@ -1,7 +1,0 @@
-Elementos de sintaxe específica
-Classes e  Objetos
-Expressões regulares
-Banco de dados
-Programacao GUI (Graphical User Interface) com Tkinter
-Introdução a Desenvovimento Web com Flask
-Trabalho(s) de conclusão

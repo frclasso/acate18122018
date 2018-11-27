@@ -1,3 +1,14 @@
+# Convertendo um tupla em lista
+
+numTuple = (1,2,3,4,5)
+numList = list(numTuple)
+print(numList)
+
+# Verificando o tipo com type
+print(type(numTuple))
+print(type(numList))
+print()
+
 # Start
 print(range(10))
 print(list(range(10)))
@@ -27,6 +38,6 @@ print(list(range(1, 0)))
 # numberedContestants = range(30)
 #
 # print(list(numberedContestants))
-
+#
 # for c in list(numberedContestants):
 #     print("Contestants: " + str(c) + " is here!")
