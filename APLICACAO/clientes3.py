@@ -24,3 +24,12 @@ clientes = {
 
 for id , dados in clientes.items():
       print(f"Registro  - ID:{id}, - Dados :{dados}.")
+
+print()
+
+# Loop aninhado, exibindo apenas os nomes
+for c in clientes.items():
+    for nome in c[1][1].split():
+        print('Cliente:',nome)
+
+

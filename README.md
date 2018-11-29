@@ -19,5 +19,9 @@ Apresentação do curso de Python módulo 1
 + Operadores básicos (lógicos, comparação, atribuição, associação e identidade)
 + Estruturas de decisão
 
+Link dessa apresentação
+-----------------------
+
+
 
 ![Image](https://github.com/frclasso/acate18122018/blob/master/acate2018.jpeg)

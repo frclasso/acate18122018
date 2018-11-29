@@ -26,3 +26,4 @@ for lista in clientes:
      print(f'Sobrenome:{lista[0]}, Nome:{lista[1]}, Idade:{lista[2]}, Sexo:{lista[3]},'
      f'CPF:{lista[4]}, Identidade:{lista[5]}, Tel:{lista[6]}, Cartao:{lista[7]}, Num:{lista[8]},'
            f'Expira em:{lista[9]}, Codigo val:{lista[10]}')
+

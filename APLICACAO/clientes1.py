@@ -3,42 +3,38 @@
 """Aplicação de dados de clientes"""
 
 # Cadastrando dados com variáveis fixas
-# print('Hotel Floripa Paradise')
-# print('Cadastro de clientes')
+print('Hotel Floripa Paradise')
+print('Cadastro de clientes')
 
-nome =  'Fabio'
-sobrenome = 'Classo'
-idade = 44
-sexo = 'M'
-cpf = '045045045'
-identidade = '454545'
-ddd = '48'
-telefone = 99998888
-cartao_credito =  'MasterCard'
-numero_cartao_de_credito = 12345
-data_expiracao = '10/19'
-cod_validacao =  215
+# nome = 'Fabio'
+# sobrenome = 'Classo'
+# idade = 44
+# sexo = 'M'
+# cpf = '045045045'
+# identidade = '454545'
+# ddd = '48'
+# telefone = 99998888
+# cartao_credito = 'MasterCard'
+# numero_cartao_de_credito = 12345
+# data_expiracao = '10/19'
+# cod_validacao = 215
 
 
 # Utilizando método dinâmico - input via prompt
-print()
-print('Hotel Floripa Paradise')
-print('Cadastro de clientes')
-print('-' * 90)
 
-# nome = input("Digite o nome do cliente: ")
-# sobrenome = input('Dogite o sobrenome: ')
-# idade =int(input("Digite a idade do cliente: "))
-# sexo = input("Digite o sexo do cliente, M(Masculino) ou F(Feminino): ")
-# cpf = input("Digite o CPF do cliente: ")
-# identidade = input("Digite a identidade do cliente: ")
-# ddd = input('DDD , ex: (48):')
-# telefone = input('Digite o telefone do cliente: ')
-# cartao_credito = input('Qual  cartao de credito? VISA/MasterCard: ')
-# numero_cartao_de_credito = input('Numero do cartao de crédito: ')
-# data_expiracao = input('Data de expiracao: ')
-# cod_validacao = input('Codigo de validacao: ')
-# print()
+nome = input("Digite o nome do cliente: ")
+sobrenome = input('Dogite o sobrenome: ')
+idade =int(input("Digite a idade do cliente: "))
+sexo = input("Digite o sexo do cliente, M(Masculino) ou F(Feminino): ")
+cpf = input("Digite o CPF do cliente: ")
+identidade = input("Digite a identidade do cliente: ")
+ddd = input('DDD , ex: (48):')
+telefone = input('Digite o telefone do cliente: ')
+cartao_credito = input('Qual  cartao de credito? VISA/MasterCard: ')
+numero_cartao_de_credito = input('Numero do cartao de crédito: ')
+data_expiracao = input('Data de expiracao: ')
+cod_validacao = input('Codigo de validacao: ')
+print()
 
 print('Dados do cliente cadastrado')
 print()

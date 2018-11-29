@@ -45,7 +45,7 @@ id_clientes = [
 # for ID, dados in id_clientes:
 #     print(ID, dados['sobrenome'],',', dados['nome'],dados['cartaoCredito'])
 
-"""Salvando dicionario em um arquivo .txt"""
+"""Salvando em um arquivo .txt"""
 
 with open('clientes.txt','w') as f:
     for ID ,dados in id_clientes:
@@ -53,7 +53,7 @@ with open('clientes.txt','w') as f:
                                     dados['cpf'], dados['telefone'], dados['cartaoCredito']))
 
 
-"""Salvando dicionario em um arquivo .csv"""
+"""Salvando  em um arquivo .csv"""
 
 import csv
 

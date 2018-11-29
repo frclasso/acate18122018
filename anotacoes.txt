@@ -11,4 +11,5 @@ Built ins
 len, type, max, min, range, sorted, enumerate ==>clientes4.py
 
 Salvando os dados em arquivos externos
-
+Metodos de entrada e saida
+clientes5.py
