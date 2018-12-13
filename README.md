@@ -19,8 +19,8 @@ Apresentação do curso de Python módulo 1
 + Operadores básicos (lógicos, comparação, atribuição, associação e identidade)
 + Estruturas de decisão
 
-Link dessa apresentação
------------------------
+[Link dessa apresentação](https://drive.google.com/open?id=1e72peXV654OwLC0wK0mBm05wD39EW2cU)
+
 
 
 
