@@ -39,11 +39,12 @@ id_clientes = [
 
 ]
 
-# id_clientes[0][0] = '0293747'  # Erro: TypeError: 'tuple' object does not support item assignment
+#id_clientes[0][0] = '0293747'  # Erro: TypeError: 'tuple' object does not support item assignment
 
-# print(id_clientes[0][0]) # [0][0] primeiro elemento da primeira tupla
-# print(id_clientes[1][1]['nome']) # [0][1] segundo elemento da primeira tupla,
+#print(id_clientes[0][0]) # [0][0] primeiro elemento da primeira tupla
+#print(id_clientes[1][1]['nome']) # [0][1] segundo elemento da primeira tupla,
                                  # nome, elemento do segundo elemento da tupla, que é um dicionario
+
 
 # for ID , dados in id_clientes:
 #       print(ID, dados['sobrenome'],',', dados['nome'])
@@ -54,9 +55,9 @@ id_clientes.append(('33112254',{'sobrenome':'Ricardo', 'nome':'Erick', 'idade':1
 
 
 # Verificando
-for ID, dados in id_clientes:
-      print(ID, dados['sobrenome'],',', dados['nome'])
-print()
+# for ID, dados in id_clientes:
+#       print(ID, dados['sobrenome'],',', dados['nome'])
+# print()
 
 # Ordenar pela primeira coluna ,ID
 # for ID, dados in sorted(id_clientes, reverse=False):
@@ -69,7 +70,7 @@ print()
 # print()
 
 # Ordenando pela idade
-# for ID, dados in sorted(id_clientes, key=lambda id_clientes:id_clientes[1]['idade'], reverse=False):
-#     print(ID, dados['sobrenome'], ',', dados['nome'], ',', dados['idade'])
-# print()
+for ID, dados in sorted(id_clientes, key=lambda id_clientes:id_clientes[1]['idade'], reverse=False):
+    print(ID, dados['sobrenome'], ',', dados['nome'], ',', dados['idade'])
+print()
 

@@ -21,7 +21,9 @@ clientes = [
       ['Neto', 'Ramiro', 74,'M','045045045', '454545-0',99998888,'Dinners Club', 12345-0, '10/19', 215]
 ]
 #
+#print(clientes[-1][1]) # Ramiro
 
+#
 for lista in clientes:
      print(f'Sobrenome:{lista[0]}, Nome:{lista[1]}, Idade:{lista[2]}, Sexo:{lista[3]},'
      f'CPF:{lista[4]}, Identidade:{lista[5]}, Tel:{lista[6]}, Cartao:{lista[7]}, Num:{lista[8]},'

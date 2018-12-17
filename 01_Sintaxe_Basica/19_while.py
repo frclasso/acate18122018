@@ -3,8 +3,8 @@
 
 
 # Incrementando
-# count = 0
-#
+count = 0
+
 # while (count < 9):
 #     print('Contador:', count)
 #     count = count + 1 # incrementador
@@ -12,12 +12,11 @@
 
 
 # Decrementando
+# # Utilizando o modulo time para criar um timer
 
 import time
 
-# Utilizando o modulo time para criar um timer
-
-seconds = 6
+seconds = 4
 while seconds != 0:
     print(f"Voce tem apenas {seconds} segundos para respoder...")
     time.sleep(2)

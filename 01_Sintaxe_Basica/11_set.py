@@ -20,7 +20,7 @@ print()
 """Ou ainda poderiamos usar os seguintes operadores"""
 print(cs_courses & art_courses)  # intersection
 print(cs_courses - art_courses) # diference
-print(cs_courses | art_courses) # union
+print(cs_courses | art_courses) # union, PIPE
 print()
 
 
@@ -28,6 +28,9 @@ print()
 print(set([1,2,1,3,1,3,2]))
 
 '''Criando um set vazio'''
-# colecao = set()  # com parenteses
-# print(colecao)
-# print(type(colecao))
+colecao = set()  # com parenteses
+print(colecao)
+print(type(colecao))
+
+#  Nao confundir com dicionarios que tambem utilizamos chaves {}, no entanto
+# {chave:valor}

@@ -43,7 +43,7 @@ id_clientes = [
 
 # Verificando
 # for ID, dados in id_clientes:
-#     print(ID, dados['sobrenome'],',', dados['nome'],dados['cartaoCredito'])
+#     print(ID, dados['sobrenome'],',', dados['nome'], ',', dados['cartaoCredito'])
 
 """Salvando em um arquivo .txt"""
 
@@ -61,7 +61,7 @@ with open('clientes.csv', mode='w') as f2:
     csv_file = csv.writer(f2)
     for ID ,dados in id_clientes:
         f2.write('\n{},{},{},{},{},{},{},{}'.format(ID,dados['sobrenome'],dados['nome'], dados['idade'], dados['sexo'],
-                                                   dados['cpf'], dados['telefone'], dados['cartaoCredito']))
+                                                    dados['cpf'], dados['telefone'], dados['cartaoCredito']))
 
 
 print('Arquivos gerados com Sucesso:', f.name,',', f2.name)

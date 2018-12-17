@@ -16,7 +16,7 @@ print()
 
 # var$ = 'Bad name' # SyntaxError: invalid syntax
 # print(var$)
-print()
+# print()
 
 '''Case sensitive,sensível a maiuscula e minuscula'''
 ManPower = 'Man'

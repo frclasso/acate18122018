@@ -8,6 +8,6 @@
 # lendo mais de uma linha
 
 with open('arquivo.txt', 'r') as f:
-    for l in f.readlines(77): # 25 primeira linha, 26 segunda, 51 terceira, 77 quarta
+    for l in f.readlines(25): # 25 primeira linha, 26 segunda, 51 terceira, 77 quarta
         print(l,end='')
 

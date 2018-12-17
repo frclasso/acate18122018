@@ -9,6 +9,10 @@ print(counter)
 print(miles)
 print(name)
 print(str)
+
+print(type(counter))
+print(type(miles))
+print(type(name))
 print()
 '''multiplas declaracoes'''
 a = b = c = 1000
@@ -16,8 +20,8 @@ print(a)
 print(b)
 print(c)
 print()
-
-'''ou ainda'''
+#
+# '''ou ainda'''
 d,e,f = 300,2018,'Python'
 print(d)
 print(e)

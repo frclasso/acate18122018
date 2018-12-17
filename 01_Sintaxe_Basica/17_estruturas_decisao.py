@@ -28,15 +28,15 @@ y = 9
 
 
 # if's aninhados
-# num = int(input("Digite um número: "))
-#
-# if num % 2 == 0:
-#     if num % 3 == 0:
-#         print("Divisivel por  3 e 2")
-#     else:
-#         print("Divisivel por 2 mas não por 3")
-# else:
-#     if num % 3 == 0:
-#         print("Divisivel por 3 mas não por 2")
-#     else:
-#         print("Não é divisível nem por 2 nem por 3")
+num = int(input("Digite um número: "))
+
+if num % 2 == 0:
+    if num % 3 == 0:
+        print("Divisivel por  3 e 2")
+    else:
+        print("Divisivel por 2 mas não por 3")
+else:
+    if num % 3 == 0:
+        print("Divisivel por 3 mas não por 2")
+    else:
+        print("Não é divisível nem por 2 nem por 3")

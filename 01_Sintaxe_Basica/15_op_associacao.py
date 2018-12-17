@@ -7,7 +7,7 @@
 cursos = ['Historia', 'Matematica', 'Fisica','Quimica', 'Economia' ]
 print('Economia' in cursos) # True
 print('Historia' not in cursos) # False
-print('Geografia' not in cursos) # False
+print('Geografia' not in cursos) # True
 print()
 
 # em tuplas
@@ -19,6 +19,7 @@ print()
 # em strings
 str = 'Python'
 print('P' in str)
+print('p' in str)
 print('p' not in str)
 print()
 

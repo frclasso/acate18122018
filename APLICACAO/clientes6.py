@@ -7,7 +7,7 @@ arquivo = input('Insira o nome do arquivo: ')
 
 try:
     with open(arquivo, 'r') as f:
-        for l in f.readline():
+        for l in f.readlines():
             print(l,end='')
 except FileNotFoundError:
     print('Arquivo nao encontrado')

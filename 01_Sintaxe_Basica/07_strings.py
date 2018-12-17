@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
 
-str  ="Hello Python,"
+str  ="Hello Python "
 
 # Indexando
-# print(str[0]) # indexando, imprime primeiro elemento
-# print(str[1]) # indexando, imprime segundo elemento
-# print(str[-1]) # indexando, imprime ultimo elemento
+print(str[0]) # indexando, imprime primeiro elemento
+print(str[1]) # indexando, imprime segundo elemento
+print(str[-1]) # indexando, imprime ultimo elemento
 
 # Fatiando / Slicing
-# print(str[2:5]) # fatiando a partir do terceiro elemento até o quinto(exclusivo)
-# print(str[2:])# fatiando a partir do terceiro elemento
+print(str[2:5]) # fatiando a partir do terceiro elemento até o quinto(exclusivo)
+print(str[2:])# fatiando a partir do terceiro elemento
 
 """Concatenação de strings"""
-#print(str + " 2018")
+print(str + " 2018")
 
 str2 = " 3, Standard Library."
-#print(str + str2) # concatenação de strings
+print(str + str2) # concatenação de strings
 
 str4 = (str + str2)
 
 '''Repeticao *'''
-#print(str * 5)
+print(str * 5)
 
 '''Alguns métodos de string'''
-# print(str4.upper()) # imprime todas as letras maiusculas
-# print(str4.lower()) # imprime minusculas
-# print(str4.capitalize()) # Primeira letra maiuscula
-# print(str4.title()) # primeira letra de cada palavra maiuscula
-# print(str4.swapcase()) # inverte o case
-# print(str4[::-1]) # invertendo uma string
+print(str4.upper()) # imprime todas as letras maiusculas
+print(str4.lower()) # imprime minusculas
+print(str4.capitalize()) # Primeira letra maiuscula
+print(str4.title()) # primeira letra de cada palavra maiuscula
+print(str4.swapcase()) # inverte o case
+print(str4[::-1]) # invertendo uma string
 
 
 print()

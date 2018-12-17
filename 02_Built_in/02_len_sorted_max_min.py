@@ -16,25 +16,25 @@ clientes = {
 print(f'Nosso cadastro conta com: {len(clientes)} clientes.')
 print()
 
-print('Do mais recente para o mais antigo:')
-for k,v in sorted(clientes.items(),reverse=True): # reverse=True, do maior pro menor
-    print(k, v)
-print()
-
-
-# Por ordem alfabética [1] = lista , [1] = segundo item da lista, nome
-print('Ordenando por ordem alfabética:')
-for k,v in sorted(clientes.items(), key=lambda clientes:clientes[1][1]):
-    print(k, v)
-print()
-
-
-print('Ordenando pela idade:')
-for k,v in sorted(clientes.items(), key=lambda clientes:clientes[1][2]):
-    print(k, v)
-print()
-
-
+# print('Do mais recente para o mais antigo:')
+# for k,v in sorted(clientes.items(),reverse=True): # reverse=True, do maior pro menor
+#     print(k, v)
+# print()
+#
+#
+# # Por ordem alfabética [1] = lista , [1] = segundo item da lista, nome
+# print('Ordenando por ordem alfabética:')
+# for k,v in sorted(clientes.items(), key=lambda clientes:clientes[1][1]):
+#     print(k, v)
+# print()
+#
+#
+# print('Ordenando pela idade:')
+# for k,v in sorted(clientes.items(), key=lambda clientes:clientes[1][2]):
+#     print(k, v)
+# print()
+#
+#
 print(f'Cadastro mais recente, ID: {max(clientes)}')
-print(f'Cadastro mais antigo, ID: {min(clientes)}')
+print(f'Cadastro mais antigo,  ID: {min(clientes)}')
 print()

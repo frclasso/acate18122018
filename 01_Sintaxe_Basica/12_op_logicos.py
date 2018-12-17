@@ -21,10 +21,11 @@ print()
 # Disjunção - OR ou |
 print('x OR y =>', x or y)
 print('z v w =>', z | w)
+print()
 
 # Negação - NOT
-print('not x is', not x)
-print('Negação de y', not y)
-print('Negação de z', not z)
-print('Negação de w', not w)
+print('not x is:', not x)
+print('Negação de y:', not y)
+print('Negação de z:', not z)
+print('Negação de w:', not w)
 print()
