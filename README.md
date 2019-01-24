@@ -24,4 +24,3 @@ Apresentação do curso de Python módulo 1
 
 
 
-![Image](https://github.com/frclasso/acate18122018/blob/master/acate2018.jpeg)
